@@ -40,6 +40,48 @@
     margin-top: 120px;
 }
 
+.content-home {
+    margin-top: 200px;
+}
+
 .logo {
     height: 70px;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 15px;
+}
+
+.column {
+    flex-basis: 48%;
+}
+
+.text-column {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+
+
+}
+
+.image-column {
+    text-align: center;
+
+}
+
+.home-img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 300px;
+}
+
+.centered-text {
+    max-width: 500px;
+    padding: 10px;
 }

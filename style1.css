@@ -99,3 +99,25 @@
     max-width: 400px;
     padding: 0%;
 }
+
+.bottom-half {
+    background: linear-gradient(to bottom,#fafafa, #e0e0e0);
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}

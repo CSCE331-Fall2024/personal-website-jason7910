@@ -41,7 +41,7 @@
 }
 
 .content-home {
-    margin-top: 200px;
+    margin-top: 175px;
 }
 
 .logo {
@@ -66,13 +66,10 @@
     align-items: center;
     text-align: center;
     height: 100%;
-
-
 }
 
 .image-column {
     text-align: center;
-
 }
 
 .home-img {
@@ -84,4 +81,21 @@
 .centered-text {
     max-width: 500px;
     padding: 10px;
+}
+
+.top-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio-blurb {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+    max-width: 400px;
+    padding: 0%;
 }

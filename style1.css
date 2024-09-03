@@ -139,3 +139,16 @@
 
 }
 
+.timeline {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    padding: 10px;
+    margin: 15px 0px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+

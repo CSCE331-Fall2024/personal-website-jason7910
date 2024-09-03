@@ -75,7 +75,9 @@
 .home-img {
     max-width: 40%;
     height: auto;
-    margin-right: 300px;
+    display: block;
+    border-radius: 10%;
+    margin-left: 75px;
 }
 
 .centered-text {

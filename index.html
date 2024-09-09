@@ -26,8 +26,9 @@
       <img src="resources/github.svg" alt="github">
     </a>
     <a href="https://www.linkedin.com/in/jason-huynh1/">
-      <img src="resources/linkedin.svg" alt="linkedin" style="margin-right: 10px;">
+      <img src="resources/linkedin.svg" alt="linkedin">
     </a>
+    <button class="style-button">Theme</button>
   </div>
 
 
@@ -39,6 +40,9 @@
           <p style="font-size: 20px;">I am a Junior at Texas A&M University studying computer science. 
             Welcome to my personal portfolio website!
           </p>
+          <a onclick="scrollToBottom()">
+            <img src="resources/info-circle-solid.svg" alt="info icon" style="height: 50px; cursor: pointer;">
+          </a>
         </div>
       </div>
       <div class="column image-column">
@@ -46,6 +50,37 @@
       </div>
     </div>
   </div>
+  <div id="second-section">
+    <div class="about-me-content">
+      <h2>About Me</h2>
+      <p>Hello! I'm Jason Huynh, a junior computer science major at Texas A&M University, from the vibrant and tech-savvy city of Austin, Texas. As an aspiring software engineer, I'm driven by an insatiable curiosity about technology and its potential to revolutionize our world. My journey in the realm of computer science has been nothing short of exhilarating, filled with challenges that fuel my growth and discoveries that ignite my passion.</p>
+      
+      <h3>Academic and Professional Journey</h3>
+      <p>At Texas A&M, I'm fully immersed in a rigorous computer science program that pushes me to expand my boundaries daily. From delving into complex algorithms to exploring cutting-edge technologies, every class is a stepping stone towards my goal of becoming a proficient software engineer. I thrive on the intellectual challenges presented in my coursework, always eager to apply theoretical concepts to practical scenarios.</p>
+      <p>A significant milestone in my budding career was my internship at Samsung Austin Semiconductor during the summer of 2024. As a full-stack software engineering intern, I had the incredible opportunity to work on real-world projects that impact hundreds of users. This experience not only honed my technical skills but also gave me invaluable insights into the industry's best practices, agile methodologies, and the importance of collaboration in large-scale projects. It was during this internship that I realized the vast potential of software engineering to create solutions that can transform industries and improve lives.</p>
+      
+      <h3>Beyond the Code</h3>
+      <p>While my passion for technology runs deep, I'm a firm believer in maintaining a well-rounded life. Soccer has been an integral part of my identity since I was 6 years old. The sport has taught me invaluable lessons about teamwork, strategy, and perseverance – skills that translate seamlessly into my academic and professional endeavors. Even with my demanding schedule, I make time to play soccer with friends and participate in intramural leagues at Texas A&M. It's not just about staying physically active; it's about fostering camaraderie and maintaining a competitive spirit off the field.</p>
+      <p>My love for soccer extends beyond playing. I'm an avid fan of Chelsea FC in the Premier League, often spending weekends watching the game with friends and analyzing the results and tactics of the game. This analytical approach to sports often reflects in my problem-solving skills in computer science projects.</p>
+      <p>Running is another passion that has recently taken root in my life. I'm currently training for two significant events: the Houston Half Marathon in January and the Austin Marathon in February. Training for these events has been a testament to my dedication and ability to manage challenging tasks and activities. Long runs provide me with time for reflection and often spark creative solutions to coding problems I'm tackling.</p>
+      
+      <h3>Continuous Growth and Exploration</h3>
+      <p>In the fast-paced world of technology, standing still means falling behind. That's why I dedicate a significant portion of my free time to improving my coding skills and exploring emerging technologies. Whether it's diving into new programming languages, experimenting with machine learning algorithms, or contributing to open-source projects, I'm always pushing the boundaries of my knowledge.</p>
+      <p>But my curiosity isn't limited to the digital realm. I have a deep appreciation for culinary arts and love exploring the diverse food scene. Trying out new restaurants and coffee shops is my way of taking a break from the screen and immersing myself in different cultures through their cuisines. These culinary adventures often serve as a source of inspiration, reminding me of the importance of creativity and attention to detail in both cooking and coding.</p>
+      
+      <h3>Looking Ahead</h3>
+      <p>As I continue my journey through college and beyond, I'm filled with excitement about the future of technology and my role in shaping it. The field of software engineering is evolving rapidly, with innovations in artificial intelligence, machine learning, and quantum computing promising to revolutionize industries. I'm eager to be at the forefront of these advancements, contributing my skills and passion to projects that make a positive impact on society.</p>
+      <p>With a solid foundation in computer science, hands-on industry experience, and a diverse range of interests that fuel my creativity, I'm poised to take on new challenges and make my mark in the world of technology. Whether it's developing cutting-edge applications, solving complex algorithmic problems, or leading innovative projects, I'm ready to embrace the opportunities that lie ahead and continue growing both as a professional and as an individual.</p>
+    </div>
+  </div>
+
+  
+  <script>
+    function scrollToBottom() {
+      let bottom = document.getElementById('second-section');
+      bottom.scrollIntoView({behavior: "smooth"})
+    }
+  </script>
 
 </body>
 </html>

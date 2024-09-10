@@ -188,3 +188,10 @@
     background-color: #99a3a4;
     transition: .5s;
 }
+
+.service-text {
+
+    max-width: 50%;
+    margin: auto;
+}
+

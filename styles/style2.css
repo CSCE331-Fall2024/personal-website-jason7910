@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -14,10 +14,10 @@
     display: flex;
     flex-grow: 1;
     justify-content: center;
-    margin-left: 75px;
+    margin-left: 40px;
 }
 .navbar a{
-    color: #f2f2f2;
+    color: orange;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

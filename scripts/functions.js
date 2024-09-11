@@ -22,10 +22,14 @@ function toggleStyleSheet() {
     if (sty === 1) {
       homeIcon.src = "resources/info-circle-fill.svg";
       homeImage.src = "resources/casual-pic.jpg";
+      localStorage.setItem("info-btn", "resources/info-circle-fill.svg")
+      localStorage.setItem("pfp", "resources/casual-pic.jpg")
     }
     else {
       homeIcon.src = "resources/info-circle-solid.svg";
       homeImage.src = "resources/Professional_HeadShot.jpg";
+      localStorage.setItem("info-btn", "resources/info-circle-solid.svg")
+      localStorage.setItem("pfp", "resources/Professional_HeadShot.jpg")
     }
     
     
@@ -34,10 +38,21 @@ function toggleStyleSheet() {
 window.onload = function() {
     let savedStyle = localStorage.getItem("stylesheet");
     let currHTML = document.getElementById("mainStyleSheet");
+
+    let savedInfoBtn = localStorage.getItem("info-btn");
+    let savedPortrait = localStorage.getItem("pfp");
+    let currInfoBtn = document.getElementById("transition-btn");
+    let currPortrait = document.getElementById("main-photo");
+
+
     if (savedStyle) {
       currHTML.setAttribute("href", savedStyle);
+      currInfoBtn.src = savedInfoBtn;
+      currPortrait.src = savedPortrait;
     }
     else {
       currHTML.setAttribute("href", "styles/style1.css")
+      currInfoBtn.src = "resources/info-circle-solid.svg";
+      currPortrait.src = "resources/Professional_HeadShot.jpg";
     }
 }

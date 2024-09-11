@@ -248,6 +248,6 @@ a {
     margin: auto;
 }
 
-.download-icon {
+.invert-icon {
     filter: invert(1);
 }

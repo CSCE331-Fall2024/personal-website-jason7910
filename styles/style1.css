@@ -44,6 +44,11 @@
     height: 80vh;
 }
 
+.content-portfolio {
+    margin-top: 175px;
+    height: 80vh;
+}
+
 .logo {
     height: 70px;
 }
@@ -104,7 +109,7 @@
 
 .bottom-half {
     background: linear-gradient(to bottom,#fafafa, #e0e0e0);
-    height: 50vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);

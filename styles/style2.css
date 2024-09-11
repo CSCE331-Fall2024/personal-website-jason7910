@@ -55,6 +55,19 @@ body {
     height: 70px;
 }
 
+.content-portfolio {
+    margin-top: 100px;
+    height: 80vh;
+}
+
+.portfolio-split {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
 .two-columns {
     display: flex;
     justify-content: center;
@@ -94,33 +107,29 @@ body {
 
 .top-half {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: left;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .portfolio-blurb {
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    margin-left: 100px;
-    max-width: 400px;
-    padding: 0%;
 }
 
 .bottom-half {
-    background: linear-gradient(to bottom,#fafafa, #e0e0e0);
-    height: 50vh;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
+    background-color: #1b1b1b;
 }
 
 .grid-item {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .grid-item img {
@@ -194,7 +203,7 @@ body {
 }
 
 .style-button:hover {
-    background-color: #99a3a4;
+    background-color: #962FBF;
     transition: .5s;
 }
 

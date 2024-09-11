@@ -38,17 +38,19 @@ function toggleStyleSheet() {
 window.onload = function() {
     let savedStyle = localStorage.getItem("stylesheet");
     let currHTML = document.getElementById("mainStyleSheet");
-
-    let savedInfoBtn = localStorage.getItem("info-btn");
-    let savedPortrait = localStorage.getItem("pfp");
     let currInfoBtn = document.getElementById("transition-btn");
     let currPortrait = document.getElementById("main-photo");
 
-
     if (savedStyle) {
       currHTML.setAttribute("href", savedStyle);
-      currInfoBtn.src = savedInfoBtn;
-      currPortrait.src = savedPortrait;
+      if (savedStyle === "styles/style1.css") {
+        currInfoBtn.src = "resources/info-circle-solid.svg";
+        currPortrait.src = "resources/Professional_HeadShot.jpg";
+      }
+      else {
+        currInfoBtn.src = "resources/info-circle-fill.svg";
+        currPortrait.src = "resources/casual-pic.jpg";
+      }
     }
     else {
       currHTML.setAttribute("href", "styles/style1.css")

@@ -4,6 +4,8 @@ function scrollToBottom() {
   }
 
 function toggleStyleSheet() {
+  // let resumeDownload = document.getElementById("download-icon");
+  // resumeDownload.src = "resources/download-white.svg";
     let curr = document.getElementById("mainStyleSheet").getAttribute("href");
     let sty;
     if (curr === "styles/style1.css") {
@@ -16,23 +18,19 @@ function toggleStyleSheet() {
       localStorage.setItem("stylesheet", "styles/style1.css");
       sty = 0
     }
-
+    // sty = 1 is dark and sty = 0 is light
     let homeIcon = document.getElementById("transition-btn");
     let homeImage = document.getElementById("main-photo");
     if (sty === 1) {
       homeIcon.src = "resources/info-circle-fill.svg";
       homeImage.src = "resources/casual-pic.jpg";
-      localStorage.setItem("info-btn", "resources/info-circle-fill.svg")
-      localStorage.setItem("pfp", "resources/casual-pic.jpg")
+      resumeDownload.src = "resources/download-white.svg";
     }
     else {
       homeIcon.src = "resources/info-circle-solid.svg";
       homeImage.src = "resources/Professional_HeadShot.jpg";
-      localStorage.setItem("info-btn", "resources/info-circle-solid.svg")
-      localStorage.setItem("pfp", "resources/Professional_HeadShot.jpg")
+      resumeDownload.src = "resources/download.png";
     }
-    
-    
 }
 
 window.onload = function() {

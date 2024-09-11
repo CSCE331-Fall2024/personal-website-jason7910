@@ -1,5 +1,11 @@
+body {
+    background-color: #121212;
+    color: lightgray;
+    font-family: "Georgia";
+}
+
 .navbar {
-    background-color: aqua;
+    background-color: #1f1f1f;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -17,7 +23,7 @@
     margin-left: 40px;
 }
 .navbar a{
-    color: orange;
+    color: lightgray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,7 +32,7 @@
 }
 
 .navbar a:hover {
-    color: gray;
+    color: #962FBF;
     }
 
 .navbar a.active {
@@ -42,6 +48,7 @@
 .content-home {
     margin-top: 175px;
     height: 80vh;
+    background-color: #121212;
 }
 
 .logo {
@@ -73,10 +80,10 @@
 }
 
 .home-img {
-    max-width: 40%;
+    max-width: 65%;
     height: auto;
     display: block;
-    border-radius: 10%;
+    border-radius: 45%;
     margin-left: 75px;
 }
 
@@ -154,13 +161,15 @@
 
 #second-section {
     padding: 75px 20px;
-    background-color: #f9f9f9;
+    background-color: #1b1b1b;
 }
 
 .about-me-content {
     max-width: 850px;
     margin: 0 auto;
     line-height: 1.6;
+    border: 1px solid lightgray;
+    padding: 5px 30px;
 }
 
 .about-me-content h2 {
@@ -190,7 +199,6 @@
 }
 
 .service-text {
-
     max-width: 50%;
     margin: auto;
 }

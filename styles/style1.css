@@ -78,7 +78,7 @@
 }
 
 .home-img {
-    max-width: 40%;
+    max-width: 45%;
     height: auto;
     display: block;
     border-radius: 10%;
@@ -103,7 +103,7 @@
     flex-direction: column;
     margin-right: 100px;
     margin-left: 100px;
-    max-width: 400px;
+    max-width: 550px;
     padding: 0%;
 }
 
@@ -197,4 +197,72 @@
 .service-text {
     max-width: 50%;
     margin: auto;
+}
+
+.home-welcome {
+    font-size: 55px;
+}
+
+.home-blurb {
+    font-size: 20px;
+}
+
+.info-icon {
+    height: 50px;
+    cursor: pointer;
+}
+
+.icon-spacing {
+    margin-right: 10px;
+}
+
+.portfolio-blurb h1 {
+    font-size: 50px;
+}
+
+.portfolio-blurb h2 {
+    font-weight: 530;
+}
+
+.portfolio-blurb h3 {
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.proj-img {
+    height: 350px;
+    border-radius: 5%;
+}
+
+.grid-item p {
+    font-weight: bold;
+}
+
+.grid-item img {
+    max-width: 225px;
+}
+
+.download-click {
+    max-width: 25px;
+}
+
+.resume-desc p {
+    max-width: 50%;
+    line-height: 1.5;
+}
+
+.resume-image img {
+    border: 2px solid black;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.timeline-item img {
+    width: 200px;
+}
+
+.service-text p {
+    line-height: 1.5;
 }

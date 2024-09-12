@@ -97,7 +97,7 @@ a {
 }
 
 .home-img {
-    max-width: 65%;
+    max-width: 62%;
     height: auto;
     display: block;
     border-radius: 45%;
@@ -196,7 +196,7 @@ a {
     position: absolute;
     top: 160px;
     left: 0;
-    width: 100%;
+    width: 200%;
     height: 2px;
     background-color: gray;
     z-index: -1;
@@ -245,9 +245,71 @@ a {
 
 .service-text {
     max-width: 50%;
+    line-height: 1.3;
     margin: auto;
 }
 
 .invert-icon {
     filter: invert(1);
+}
+
+.home-welcome {
+    font-size: 55px;
+}
+
+.home-blurb {
+    font-size: 20px;
+}
+
+.info-icon {
+    height: 50px;
+    cursor: pointer;
+}
+
+.icon-spacing {
+    margin-right: 10px;
+}
+
+.portfolio-blurb h1 {
+    font-size: 50px;
+}
+
+.portfolio-blurb h2 {
+    font-weight: 500;
+}
+
+.portfolio-blurb h3 {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.proj-img {
+    height: 350px;
+    border-radius: 5%;
+}
+
+.grid-item p {
+    font-weight: bold;
+}
+
+.grid-item img {
+    max-width: 200px;
+}
+
+.download-click {
+    max-width: 25px;
+}
+
+.resume-desc p {
+    max-width: 65%;
+    line-height: 1.5;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.timeline-item img {
+    width: 200px;
 }

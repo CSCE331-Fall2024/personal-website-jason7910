@@ -110,7 +110,7 @@
 
 .bottom-half {
     background: linear-gradient(to bottom,#fafafa, #e0e0e0);
-    height: 80vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);

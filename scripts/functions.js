@@ -3,6 +3,11 @@ function scrollToBottom() {
     bottom.scrollIntoView({behavior: "smooth"});
   }
 
+  function scrollToProj() {
+    let bottom = document.getElementById('bottom-half');
+    bottom.scrollIntoView({behavior: "smooth"});
+  }
+
 function toggleStyleSheet() {
     let curr = document.getElementById("mainStyleSheet").getAttribute("href");
     let sty;

@@ -313,3 +313,7 @@ a {
 .timeline-item img {
     width: 200px;
 }
+
+.down-icon {
+    display: none;
+}
